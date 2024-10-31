@@ -25,6 +25,8 @@ spec:
     value: quay.io/redhat-user-workloads/araszka-tenant/devfile-sample-python-basic:{{revision}}
   - name: dockerfile
     value: docker/Dockerfile
+  - name: build-image-index
+    value: "true"
   pipelineSpec:
     description: |
       This pipeline is ideal for building container images from a Containerfile while maintaining trust after pipeline customization.
